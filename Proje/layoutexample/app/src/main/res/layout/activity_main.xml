@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic__llustration" />
+
+        <TextView
+            android:id="@+id/learnathome"
+            style="@style/EntryTitleStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:text="Learn at home!"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintStart_toStartOf="@+id/imageView"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <Button
+            android:id="@+id/startnow"
+            style="@style/EntryButtonStyle"
+            android:layout_width="186dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="28dp"
+            android:text="Start Now"
+            android:textAllCaps="false"
+            app:layout_constraintEnd_toEndOf="@+id/efficientlyandeffectively"
+            app:layout_constraintHorizontal_bias="0.481"
+            app:layout_constraintStart_toStartOf="@+id/efficientlyandeffectively"
+            app:layout_constraintTop_toBottomOf="@+id/efficientlyandeffectively" />
+
+        <TextView
+            android:id="@+id/efficientlyandeffectively"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/acme"
+            android:gravity="center"
+            android:text="efficiently and effectively"
+            android:textColor="#B9B8C6"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="@+id/learnathome"
+            app:layout_constraintHorizontal_bias="0.473"
+            app:layout_constraintStart_toStartOf="@+id/learnathome"
+            app:layout_constraintTop_toBottomOf="@+id/learnathome" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

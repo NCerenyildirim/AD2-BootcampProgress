@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="EntryTitleStyle">
+        <item name="android:fontFamily">@font/acme</item>
+        <item name="android:textColor">#2C2B47</item>
+        <item name="android:textSize">39sp</item>
+    </style>
+
+    <style name="EntryButtonStyle">
+        <item name="android:backgroundTint">#2C2B47</item>
+        <item name="android:fontFamily">@font/acme</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>
