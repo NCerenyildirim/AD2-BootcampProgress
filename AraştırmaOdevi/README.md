@@ -69,3 +69,6 @@ Font family dosyamızı projemizde farklı font çeşitlerini kullanarak değiş
 ![Font](https://user-images.githubusercontent.com/103643989/165372158-86cd9141-4ee2-454b-a3fb-a2764169fc53.png)
 
 
+*Fontunuzu xml dosyası şeklinde yüklerseniz birden fazla text için bu fontu kullanmanız mümkün olacaktır.*
+
+
