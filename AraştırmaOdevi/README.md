@@ -72,3 +72,8 @@ Font family dosyamızı projemizde farklı font çeşitlerini kullanarak değiş
 *Fontunuzu xml dosyası şeklinde yüklerseniz birden fazla text için bu fontu kullanmanız mümkün olacaktır.*
 
 
+
+
+**4)Araştırma Projesi 4**
+
+
