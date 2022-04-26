@@ -1,4 +1,4 @@
-*Data binding eklendi ve aktiviteler arası geçişler oluşturuldu.*
+*Data binding has been added and transitions between activities have been created.*
 
 
 
