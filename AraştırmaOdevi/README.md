@@ -36,7 +36,7 @@ P.S. [Bu linkten](https://developer.android.com/guide/topics/resources/animation
 
 
 
- **1)Lateinit neden kullanıyoruz?**
+ **1)Araştırma Projesi 1**
  
 Lateinit diğer adıyla late initialization ilk kullanımda değişkene bir değer atama zorunluluğu getirmez. Bu sayede değişken başlatılana kadar bellekte yer ayrılmaz. Lateinit kullanırken dikkat edilmesi gereken unsurlardan biri atanacak değişkenin null değere sahip olmaması gerekir.
 
@@ -59,5 +59,13 @@ Bu öznitelik, bu düzenin varsayılan olarak hangi etkinlikle ilişkili olduğu
 
 
 ![context](https://user-images.githubusercontent.com/103643989/164041951-adb94a61-d5af-4529-99bc-e9d8eeb7f294.png)
+
+**3)Araştırma Projesi 3**
+
+Font family dosyamızı projemizde farklı font çeşitlerini kullanarak değişik görüntüler yaratmak için kullanıyoruz. Araştırarak bulabilebileceğimiz fontları android studioya'ya ekleyerek kullanım sağlayabiliriz.
+ Res dosyasında sağ tık yaparak new directory > font şeklinde dosya açarak indirdiğimiz fontumuzu buraya yüklüyoruz.
+ 
+ 
+![Font](https://user-images.githubusercontent.com/103643989/165372158-86cd9141-4ee2-454b-a3fb-a2764169fc53.png)
 
 
