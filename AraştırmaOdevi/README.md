@@ -36,6 +36,9 @@ P.S. [Bu linkten](https://developer.android.com/guide/topics/resources/animation
 
 
 
+
+
+
  **1)Araştırma Projesi 1**
  
 Lateinit diğer adıyla late initialization ilk kullanımda değişkene bir değer atama zorunluluğu getirmez. Bu sayede değişken başlatılana kadar bellekte yer ayrılmaz. Lateinit kullanırken dikkat edilmesi gereken unsurlardan biri atanacak değişkenin null değere sahip olmaması gerekir.
@@ -76,4 +79,6 @@ Font family dosyamızı projemizde farklı font çeşitlerini kullanarak değiş
 
 **4)Araştırma Projesi 4**
 
+Uygulama oluştururken yarattığımız arayüzdeki nesneleri istediğimiz hareket ettirmek için animasyonlardan yararlanırız.
 
+*ObjectAnimator:* Hedef bir nesneyi ve bu nesneye özellik kazandırmamızı sağlayan valueAnimatorün alt sınıfıdır. Bu sınıf, animasyon için yeni bir değer hesapladığında özelliği buna göre günceller. Hedef nesnelerde değerleri canlandırma sürecini çok daha kolay hale getirdiği için çoğu zaman ObjectAnimator kullanmak istersiniz.
