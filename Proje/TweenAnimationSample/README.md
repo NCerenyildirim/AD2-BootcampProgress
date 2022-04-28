@@ -10,4 +10,5 @@ All animation components were created in a single animation file.
 
 You can view the crazy cactus animation below:
 
-![2022-04-26-21-23-28_Trim](https://user-images.githubusercontent.com/103643989/165369528-a889de98-9bdf-46d2-9d3d-baf889f78573.gif)
+
+![Hnet com-image](https://user-images.githubusercontent.com/103643989/165831550-f4c2266f-e1bc-46d9-ac14-2020de1bb7bc.gif)
